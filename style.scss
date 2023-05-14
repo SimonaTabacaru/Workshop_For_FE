@@ -1,0 +1,54 @@
+@import "color";
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: background-color_1; 
+}
+
+li{
+    padding: 15px; 
+    font-size: 30px;
+    &first-of-type{
+        background-color: $background-color_2;
+    }
+    &last-of-type{
+        display: none;
+    }
+}
+a{
+    text-decoration: none;
+    color:$color_1;
+}
+
+@media screen and(max-width:500px) {
+    ul{
+        justify-content: space-between;
+    }
+    li{
+        display: none;
+        font-size: 16px;
+        &first-of-type{
+            display: block;
+        }
+        &last-of-type{
+            display: block;
+        }
+    }
+    .hamburger-lines{
+        height: 26px;
+        width: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;  
+        .line{
+            height: 4px;
+      width: 100%;
+      border-radius: 10px;
+      background: white;
+        }
+    }
+    
+}
