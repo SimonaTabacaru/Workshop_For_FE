@@ -11,23 +11,23 @@
 // }
 
 
-const varsta = prompt('Introduceti varsta');
-console.log(varsta);
+// const varsta = prompt('Introduceti varsta');
+// console.log(varsta);
 
-switch(varsta){
-    case"15"; {
-        console.log("reducere 25%");
-} case"16"; {
-    console.log("reducere 20%");
-    break;
-} case"17" {
-    console.log("reducere 15%");
-    break;
-} case"18" {
-    console.log("reducere 10%");
-    break;
-} case"varsta < 18"{
-    console.log("fara reducere");
-    break;
-} default
-}
+// switch(varsta){
+//     case"15"; {
+//         console.log("reducere 25%");
+// } case"16"; {
+//     console.log("reducere 20%");
+//     break;
+// } case"17" {
+//     console.log("reducere 15%");
+//     break;
+// } case"18" {
+//     console.log("reducere 10%");
+//     break;
+// } case"varsta < 18"{
+//     console.log("fara reducere");
+//     break;
+// } default
+// // }
