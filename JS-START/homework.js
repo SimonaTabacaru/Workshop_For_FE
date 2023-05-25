@@ -21,3 +21,16 @@ let secondOp = otherValues[0]-2;
 console.log(secondOp)
 
 otherValues[0] = secondOp
+
+
+const str="Happy codding: "
+const array=['Andreea', 'Simona','Andreea','Ioana', '12','Simona']
+const array1=str.concat(array);
+console.log(array1)
+
+
+let change = !initialValues[3]
+let change1 = !initialValues[6]
+let change2 = !initialValues[7[5]]
+let change3 = !initialValues[7[8]]
+console.log(change,change1,change2,change3);
